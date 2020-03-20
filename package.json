@@ -1,0 +1,31 @@
+{
+  "name": "vue-elder-choice",
+  "version": "0.0.0-development",
+  "description": "Choice/Select component for Vue (vue-elder)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests yet\"",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ElderAS/vue-elder-choice.git"
+  },
+  "keywords": [
+    "vue",
+    "component",
+    "choice",
+    "select",
+    "elder"
+  ],
+  "author": "car.jacobsen@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ElderAS/vue-elder-choice/issues"
+  },
+  "homepage": "https://github.com/ElderAS/vue-elder-choice#readme",
+  "devDependencies": {
+    "semantic-release-cli": "^5.2.3",
+    "semantic-release": "^17.0.4"
+  }
+}
