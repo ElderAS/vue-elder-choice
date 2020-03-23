@@ -21,7 +21,7 @@
 <script>
 export default {
   props: {
-    value: [String, Object, Number],
+    value: [String, Object, Number, Boolean],
     values: Array,
   },
 }
