@@ -28,12 +28,13 @@ export default {
 </script>
 
 <style lang="scss">
+@import './main';
+
+:root {
+  @include GenerateVariables();
+}
+
 .elder-choices {
-  $primary: #3a9acd !default;
-  $success: #33ca62 !default;
-  $error: #e83b35 !default;
-  $border-color: #eaeaea !default;
-  $border-radius: 3px !default;
   $spacing: 1rem;
 
   display: flex;
@@ -50,20 +51,20 @@ export default {
     margin-left: $spacing;
     margin-bottom: $spacing;
 
-    border-radius: $border-radius;
+    border-radius: var(--vue-elder-border-radius);
     background-color: white;
 
     font-weight: bold;
     font-size: inherit;
-    border: 1px solid $border-color;
+    border: 1px solid var(--vue-elder-border-color);
     cursor: pointer;
     outline: none !important;
 
     transition: background-color 150ms ease-out, color 150ms ease-out;
 
     &--active {
-      border-color: $primary;
-      background-color: $primary;
+      border-color: var(--vue-elder-primary);
+      background-color: var(--vue-elder-primary);
       color: white;
     }
 
