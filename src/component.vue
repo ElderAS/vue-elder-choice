@@ -51,20 +51,20 @@ export default {
     margin-left: $spacing;
     margin-bottom: $spacing;
 
-    border-radius: var(--vue-elder-border-radius);
+    border-radius: GetVariable('border-radius');
     background-color: white;
 
     font-weight: bold;
     font-size: inherit;
-    border: 1px solid var(--vue-elder-border-color);
+    border: 1px solid GetVariable('border-color');
     cursor: pointer;
     outline: none !important;
 
     transition: background-color 150ms ease-out, color 150ms ease-out;
 
     &--active {
-      border-color: var(--vue-elder-primary);
-      background-color: var(--vue-elder-primary);
+      border-color: GetVariable('border-color');
+      background-color: GetVariable('primary');
       color: white;
     }
 
