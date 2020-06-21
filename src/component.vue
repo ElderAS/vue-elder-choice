@@ -63,7 +63,7 @@ export default {
     transition: background-color 150ms ease-out, color 150ms ease-out;
 
     &--active {
-      border-color: GetVariable('border-color');
+      border-color: GetVariable('primary');
       background-color: GetVariable('primary');
       color: white;
     }
