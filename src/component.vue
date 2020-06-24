@@ -30,6 +30,7 @@ export default {
 <style lang="scss">
 $variables: (
   'primary': #3a9acd,
+  'primary-contrast': white,
   'border-radius': 3px,
   'border-color': #eaeaea,
 );
@@ -70,6 +71,7 @@ $variables: (
     &--active {
       border-color: GetVariable('primary');
       background-color: GetVariable('primary');
+      color: GetVariable('primary-contrast');
     }
 
     &-image {
