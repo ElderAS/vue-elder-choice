@@ -64,8 +64,7 @@ export default {
     background-color: white;
 
     &--active {
-      color: white;
-      border-color: GetVariable('border-color');
+      border-color: GetVariable('primary');
       background-color: GetVariable('primary');
     }
 
