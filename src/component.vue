@@ -39,38 +39,40 @@ export default {
 
   display: flex;
   flex-wrap: wrap;
-  margin-left: -$spacing;
+
   margin-bottom: -$spacing;
+  margin-left: -$spacing;
 
   &__item {
+    font-size: inherit;
+    font-weight: bold;
+
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
     flex-grow: 1;
 
-    margin-left: $spacing;
     margin-bottom: $spacing;
+    margin-left: $spacing;
 
-    border-radius: GetVariable('border-radius');
-    background-color: white;
-
-    font-weight: bold;
-    font-size: inherit;
-    border: 1px solid GetVariable('border-color');
     cursor: pointer;
-    outline: none !important;
-
     transition: background-color 150ms ease-out, color 150ms ease-out;
 
+    border: 1px solid GetVariable('border-color');
+    border-radius: GetVariable('border-radius');
+    outline: none !important;
+    background-color: white;
+
     &--active {
+      color: white;
       border-color: GetVariable('border-color');
       background-color: GetVariable('primary');
-      color: white;
     }
 
     &-image {
-      padding: 1rem 2rem 0;
       flex-grow: 1;
+
+      padding: 1rem 2rem 0;
     }
 
     &-label {
