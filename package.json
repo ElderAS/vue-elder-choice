@@ -26,7 +26,7 @@
   "homepage": "https://github.com/ElderAS/vue-elder-choice#readme",
   "devDependencies": {
     "cz-conventional-changelog": "^3.2.0",
-    "semantic-release": "^17.0.4",
+    "semantic-release": "^19.0.3",
     "semantic-release-cli": "^5.2.3"
   },
   "config": {
